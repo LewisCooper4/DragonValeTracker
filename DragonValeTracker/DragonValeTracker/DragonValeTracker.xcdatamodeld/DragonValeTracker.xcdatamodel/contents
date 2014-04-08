@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1487" systemVersion="11G63" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Dragon22" syncable="YES">
+        <attribute name="breedingTime" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="buyForGems" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="buyPrice" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="descriptionOfDragon" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="dragonAdult" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="dragonBaby" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="dragonEgg" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="dragonName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="elements" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="levelAvailability" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="negativeElements" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="numberOfDragons" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="numberOfEggs" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="positiveElements" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="rateOfCollectionLevel1" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="rateOfCollectionLevel10" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="rateOfCollectionLevel15" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="rateOfCollectionLevel20" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="sellPrice" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Dragon22" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>
