@@ -8,6 +8,10 @@
 
 #import "HabitatsTableViewController.h"
 
+#import "HabitatDatabase.h"
+#import "HabitatsCell.h"
+#import "Habitat.h"
+
 @interface HabitatsTableViewController ()
 
 @end
@@ -19,6 +23,12 @@
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
+        
+        habitatDatabase = [[HabitatDatabase alloc] init];
+        
+        UINavigationItem *navItem = [self navigationItem];
+        [navItem setTitle:@"Habitats"];
+        
     }
     return self;
 }
@@ -32,6 +42,9 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    UINib *nib = [UINib nibWithNibName:@"HabitatsCell" bundle:nil];
+    [[self tableView] registerNib:nib forCellReuseIdentifier:@"HabitatsCell"];
 }
 
 - (void)viewDidUnload
@@ -50,24 +63,26 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
     return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return [[[HabitatDatabase sharedHabitatDatabase] allHabitats] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    HabitatsCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HabitatsCell"];
     
-    // Configure the cell...
+    Habitat *habitat = [[HabitatDatabase sharedHabitatDatabase] habitatAtIndex:[indexPath row]];
+    
+    [[cell habitatImage] setImage:habitat.habitatImage];
+    [[cell habitatNameLabel] setText:habitat.habitatElement];
+    [[cell totalEarningsLabel] setText:[NSString stringWithFormat:@"Total Earnings %d", [habitat getEarnings]]];
+    [[cell elementLabel] setImage:[UIImage imageNamed:@"url.png"]];
     
     return cell;
 }

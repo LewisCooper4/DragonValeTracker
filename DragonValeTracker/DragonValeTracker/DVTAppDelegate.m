@@ -10,6 +10,7 @@
 
 #import "DVTTableViewController.h"
 #import "StarredDragonsTableViewController.h"
+#import "HabitatsTableViewController.h"
 
 @implementation DVTAppDelegate
 
@@ -25,14 +26,17 @@
     
     DVTTableViewController *mainTableViewController = [[DVTTableViewController alloc] init];
     StarredDragonsTableViewController *starredTableViewController = [[StarredDragonsTableViewController alloc] init];
+    HabitatsTableViewController *habitatTableViewController = [[HabitatsTableViewController alloc] init];
     
     UINavigationController *navController1 = [[UINavigationController alloc] initWithRootViewController:mainTableViewController];
     
     UINavigationController *navController2 = [[UINavigationController alloc] initWithRootViewController:starredTableViewController];
     
+    UINavigationController *navController3 = [[UINavigationController alloc] initWithRootViewController:habitatTableViewController];
+    
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     
-    NSArray *viewControllers = [NSArray arrayWithObjects:navController1, navController2, nil];
+    NSArray *viewControllers = [NSArray arrayWithObjects:navController1, navController2, navController3, nil];
     
     [tabBarController setViewControllers:viewControllers];
     

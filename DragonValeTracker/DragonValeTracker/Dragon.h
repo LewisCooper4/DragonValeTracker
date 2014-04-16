@@ -36,6 +36,7 @@
 @property (nonatomic) NSInteger buyPrice;
 // whether it requires gems or coins to buy
 @property (nonatomic) BOOL buyForGems;
+@property (nonatomic) NSInteger level;
 @property (nonatomic) NSInteger rateOfCollectionLevel1;
 @property (nonatomic) NSInteger rateOfCollectionLevel10;
 @property (nonatomic) NSInteger rateOfCollectionLevel15;

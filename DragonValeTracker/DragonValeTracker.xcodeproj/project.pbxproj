@@ -553,6 +553,12 @@
 		1E191C8E18EF519700712AEF /* Water baby.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E191A7C18EF519700712AEF /* Water baby.jpeg */; };
 		1E191C8F18EF519700712AEF /* Water egg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E191A7D18EF519700712AEF /* Water egg.jpeg */; };
 		1E191C9518EF528300712AEF /* url.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E191C9418EF528300712AEF /* url.png */; };
+		1E2C047918FB03F000C696A1 /* Habitat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2C047818FB03F000C696A1 /* Habitat.m */; };
+		1E2C048118FB053F00C696A1 /* HabitatDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2C048018FB053F00C696A1 /* HabitatDatabase.m */; };
+		1E5D398718F86DD10096F73C /* HabitatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5D398518F86DD10096F73C /* HabitatsViewController.m */; };
+		1E5D398818F86DD10096F73C /* HabitatsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E5D398618F86DD10096F73C /* HabitatsViewController.xib */; };
+		1E5D398C18F86DE70096F73C /* HabitatsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5D398B18F86DE70096F73C /* HabitatsCell.m */; };
+		1E5D398E18F86DFF0096F73C /* HabitatsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E5D398D18F86DFF0096F73C /* HabitatsCell.xib */; };
 		1E6D726918F1C6D40057D46B /* StarredDragonsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6D726818F1C6D40057D46B /* StarredDragonsTableViewController.m */; };
 		1ED0A05718F32A9800A9FC3A /* HabitatsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED0A05618F32A9800A9FC3A /* HabitatsTableViewController.m */; };
 /* End PBXBuildFile section */
@@ -1113,6 +1119,16 @@
 		1E191A7C18EF519700712AEF /* Water baby.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Water baby.jpeg"; sourceTree = "<group>"; };
 		1E191A7D18EF519700712AEF /* Water egg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Water egg.jpeg"; sourceTree = "<group>"; };
 		1E191C9418EF528300712AEF /* url.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = url.png; path = ../../../../../Desktop/url.png; sourceTree = "<group>"; };
+		1E2C047718FB03F000C696A1 /* Habitat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Habitat.h; sourceTree = "<group>"; };
+		1E2C047818FB03F000C696A1 /* Habitat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Habitat.m; sourceTree = "<group>"; };
+		1E2C047F18FB053F00C696A1 /* HabitatDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HabitatDatabase.h; sourceTree = "<group>"; };
+		1E2C048018FB053F00C696A1 /* HabitatDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HabitatDatabase.m; sourceTree = "<group>"; };
+		1E5D398418F86DD10096F73C /* HabitatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HabitatsViewController.h; sourceTree = "<group>"; };
+		1E5D398518F86DD10096F73C /* HabitatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HabitatsViewController.m; sourceTree = "<group>"; };
+		1E5D398618F86DD10096F73C /* HabitatsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HabitatsViewController.xib; sourceTree = "<group>"; };
+		1E5D398A18F86DE70096F73C /* HabitatsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HabitatsCell.h; sourceTree = "<group>"; };
+		1E5D398B18F86DE70096F73C /* HabitatsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HabitatsCell.m; sourceTree = "<group>"; };
+		1E5D398D18F86DFF0096F73C /* HabitatsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HabitatsCell.xib; sourceTree = "<group>"; };
 		1E6D726718F1C6D40057D46B /* StarredDragonsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarredDragonsTableViewController.h; sourceTree = "<group>"; };
 		1E6D726818F1C6D40057D46B /* StarredDragonsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarredDragonsTableViewController.m; sourceTree = "<group>"; };
 		1ED0A05518F32A9800A9FC3A /* HabitatsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HabitatsTableViewController.h; sourceTree = "<group>"; };
@@ -1185,6 +1201,16 @@
 				1E19179818EF3E0400712AEF /* DVTTableViewController.m */,
 				1ED0A05518F32A9800A9FC3A /* HabitatsTableViewController.h */,
 				1ED0A05618F32A9800A9FC3A /* HabitatsTableViewController.m */,
+				1E5D398418F86DD10096F73C /* HabitatsViewController.h */,
+				1E5D398518F86DD10096F73C /* HabitatsViewController.m */,
+				1E5D398618F86DD10096F73C /* HabitatsViewController.xib */,
+				1E5D398A18F86DE70096F73C /* HabitatsCell.h */,
+				1E5D398B18F86DE70096F73C /* HabitatsCell.m */,
+				1E5D398D18F86DFF0096F73C /* HabitatsCell.xib */,
+				1E2C047718FB03F000C696A1 /* Habitat.h */,
+				1E2C047818FB03F000C696A1 /* Habitat.m */,
+				1E2C047F18FB053F00C696A1 /* HabitatDatabase.h */,
+				1E2C048018FB053F00C696A1 /* HabitatDatabase.m */,
 				1E191C9418EF528300712AEF /* url.png */,
 				1E19177418EF34D000712AEF /* Supporting Files */,
 			);
@@ -3966,6 +3992,8 @@
 				1E191C8E18EF519700712AEF /* Water baby.jpeg in Resources */,
 				1E191C8F18EF519700712AEF /* Water egg.jpeg in Resources */,
 				1E191C9518EF528300712AEF /* url.png in Resources */,
+				1E5D398818F86DD10096F73C /* HabitatsViewController.xib in Resources */,
+				1E5D398E18F86DFF0096F73C /* HabitatsCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3986,6 +4014,10 @@
 				1E19179918EF3E0400712AEF /* DVTTableViewController.m in Sources */,
 				1E6D726918F1C6D40057D46B /* StarredDragonsTableViewController.m in Sources */,
 				1ED0A05718F32A9800A9FC3A /* HabitatsTableViewController.m in Sources */,
+				1E5D398718F86DD10096F73C /* HabitatsViewController.m in Sources */,
+				1E5D398C18F86DE70096F73C /* HabitatsCell.m in Sources */,
+				1E2C047918FB03F000C696A1 /* Habitat.m in Sources */,
+				1E2C048118FB053F00C696A1 /* HabitatDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

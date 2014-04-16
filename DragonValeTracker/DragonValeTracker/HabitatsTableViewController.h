@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+#import "HabitatDatabase.h"
+
 @interface HabitatsTableViewController : UITableViewController
+{
+    HabitatDatabase *habitatDatabase;
+}
 
 @end
