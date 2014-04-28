@@ -29,10 +29,16 @@
     HabitatsTableViewController *habitatTableViewController = [[HabitatsTableViewController alloc] init];
     
     UINavigationController *navController1 = [[UINavigationController alloc] initWithRootViewController:mainTableViewController];
+    [[navController1 tabBarItem] setTitle:@"Dragon Vale"];
+    [[navController1 tabBarItem] setImage:[UIImage imageNamed:@"Fire baby.jpeg"]];
     
     UINavigationController *navController2 = [[UINavigationController alloc] initWithRootViewController:starredTableViewController];
+    [[navController2 tabBarItem] setTitle:@"Starred"];
+    [[navController2 tabBarItem] setImage:[UIImage imageNamed:@"Star.png"]];
     
     UINavigationController *navController3 = [[UINavigationController alloc] initWithRootViewController:habitatTableViewController];
+    [[navController3 tabBarItem] setTitle:@"Habitats"];
+    [[navController3 tabBarItem] setImage:[UIImage imageNamed:@"Gemstone Habitat"]];
     
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     

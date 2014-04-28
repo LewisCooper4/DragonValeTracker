@@ -92,8 +92,13 @@
     [[cell dragonThumbnailImage] setImage:dragon.adultDragon];
     [[cell numberOfDragonsAndEggsLabel] setText:[NSString stringWithFormat:@"Dragons:%d Eggs:%d", dragon.numberOfDragons, dragon.numberOfEggs]];
     
-    // go through the array of dragon elements to put into the uimages in
-    [[cell element1Image] setImage:[UIImage imageNamed:@"url.png"]];
+    int i = 0;
+    for (NSString *element in dragon.elements) {
+        
+        [[[cell elementImages] objectAtIndex:i] setImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@ Element.png", element]]];
+        
+        i++;
+    }
     
     // Configure the cell...
     

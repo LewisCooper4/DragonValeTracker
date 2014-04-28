@@ -22,14 +22,6 @@
 		1E19179418EF3BE800712AEF /* DVTDragonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E19179318EF3BE800712AEF /* DVTDragonCell.m */; };
 		1E19179618EF3BFB00712AEF /* DVTDragonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E19179518EF3BFB00712AEF /* DVTDragonCell.xib */; };
 		1E19179918EF3E0400712AEF /* DVTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E19179818EF3E0400712AEF /* DVTTableViewController.m */; };
-		1E191A7E18EF519700712AEF /* AirElement.xcf in Resources */ = {isa = PBXBuildFile; fileRef = 1E1917A018EF519500712AEF /* AirElement.xcf */; };
-		1E191A7F18EF519700712AEF /* EarthElement.xcf in Resources */ = {isa = PBXBuildFile; fileRef = 1E1917A118EF519500712AEF /* EarthElement.xcf */; };
-		1E191A8018EF519700712AEF /* FireElement.xcf in Resources */ = {isa = PBXBuildFile; fileRef = 1E1917A218EF519500712AEF /* FireElement.xcf */; };
-		1E191A8118EF519700712AEF /* IceElement.xcf in Resources */ = {isa = PBXBuildFile; fileRef = 1E1917A318EF519500712AEF /* IceElement.xcf */; };
-		1E191A8218EF519700712AEF /* LightningElement.xcf in Resources */ = {isa = PBXBuildFile; fileRef = 1E1917A418EF519500712AEF /* LightningElement.xcf */; };
-		1E191A8318EF519700712AEF /* MetalElements.xcf in Resources */ = {isa = PBXBuildFile; fileRef = 1E1917A518EF519500712AEF /* MetalElements.xcf */; };
-		1E191A8418EF519700712AEF /* PlantElement.xcf in Resources */ = {isa = PBXBuildFile; fileRef = 1E1917A618EF519500712AEF /* PlantElement.xcf */; };
-		1E191A8518EF519700712AEF /* WaterElement.xcf in Resources */ = {isa = PBXBuildFile; fileRef = 1E1917A718EF519500712AEF /* WaterElement.xcf */; };
 		1E191A8618EF519700712AEF /* Apocalypse adult.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1917AB18EF519500712AEF /* Apocalypse adult.jpg */; };
 		1E191A8718EF519700712AEF /* Apocalypse baby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1917AC18EF519500712AEF /* Apocalypse baby.jpg */; };
 		1E191A8818EF519700712AEF /* Apocalypse egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1917AD18EF519500712AEF /* Apocalypse egg.jpg */; };
@@ -179,7 +171,7 @@
 		1E191B1818EF519700712AEF /* Silver egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E19187418EF519500712AEF /* Silver egg.jpg */; };
 		1E191B1918EF519700712AEF /* Air adult.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E19187818EF519500712AEF /* Air adult.jpeg */; };
 		1E191B1A18EF519700712AEF /* Air baby.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E19187918EF519500712AEF /* Air baby.jpeg */; };
-		1E191B1B18EF519700712AEF /* Air Egg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E19187A18EF519500712AEF /* Air Egg.png */; };
+		1E191B1B18EF519700712AEF /* Air egg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E19187A18EF519500712AEF /* Air egg.png */; };
 		1E191B1C18EF519700712AEF /* Blazing adult.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E19187D18EF519500712AEF /* Blazing adult.jpg */; };
 		1E191B1D18EF519700712AEF /* Blazing baby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E19187E18EF519500712AEF /* Blazing baby.jpg */; };
 		1E191B1E18EF519700712AEF /* Blazing egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E19187F18EF519500712AEF /* Blazing egg.jpg */; };
@@ -219,9 +211,9 @@
 		1E191B4018EF519700712AEF /* Century adult.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918AF18EF519600712AEF /* Century adult.jpg */; };
 		1E191B4118EF519700712AEF /* Century baby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918B018EF519600712AEF /* Century baby.jpg */; };
 		1E191B4218EF519700712AEF /* Century Egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918B118EF519600712AEF /* Century Egg.jpg */; };
-		1E191B4318EF519700712AEF /* Frostfire Adult.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918B318EF519600712AEF /* Frostfire Adult.jpg */; };
-		1E191B4418EF519700712AEF /* Frostfire Baby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918B418EF519600712AEF /* Frostfire Baby.jpg */; };
-		1E191B4518EF519700712AEF /* Frostfire Egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918B518EF519600712AEF /* Frostfire Egg.jpg */; };
+		1E191B4318EF519700712AEF /* Frostfire adult.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918B318EF519600712AEF /* Frostfire adult.jpg */; };
+		1E191B4418EF519700712AEF /* Frostfire baby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918B418EF519600712AEF /* Frostfire baby.jpg */; };
+		1E191B4518EF519700712AEF /* Frostfire egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918B518EF519600712AEF /* Frostfire egg.jpg */; };
 		1E191B4618EF519700712AEF /* Ghost adult.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918B718EF519600712AEF /* Ghost adult.jpg */; };
 		1E191B4718EF519700712AEF /* Ghost baby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918B818EF519600712AEF /* Ghost baby.jpg */; };
 		1E191B4818EF519700712AEF /* Ghost egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918B918EF519600712AEF /* Ghost egg.jpg */; };
@@ -255,9 +247,9 @@
 		1E191B6418EF519700712AEF /* Snow adult.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918DF18EF519600712AEF /* Snow adult.jpg */; };
 		1E191B6518EF519700712AEF /* Snow baby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918E018EF519600712AEF /* Snow baby.jpg */; };
 		1E191B6618EF519700712AEF /* Snow egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918E118EF519600712AEF /* Snow egg.jpg */; };
-		1E191B6718EF519700712AEF /* Dark Adult.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918E418EF519600712AEF /* Dark Adult.jpeg */; };
+		1E191B6718EF519700712AEF /* Dark adult.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918E418EF519600712AEF /* Dark adult.jpeg */; };
 		1E191B6818EF519700712AEF /* Dark baby.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918E518EF519600712AEF /* Dark baby.jpeg */; };
-		1E191B6918EF519700712AEF /* Dark Egg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918E618EF519600712AEF /* Dark Egg.jpeg */; };
+		1E191B6918EF519700712AEF /* Dark egg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918E618EF519600712AEF /* Dark egg.jpeg */; };
 		1E191B6A18EF519700712AEF /* Acid Adult.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918E918EF519600712AEF /* Acid Adult.jpg */; };
 		1E191B6B18EF519700712AEF /* Acid Baby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918EA18EF519600712AEF /* Acid Baby.jpg */; };
 		1E191B6C18EF519700712AEF /* Acid Egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1918EB18EF519600712AEF /* Acid Egg.jpg */; };
@@ -402,14 +394,14 @@
 		1E191BF718EF519700712AEF /* Shimmer Adult.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1919AB18EF519600712AEF /* Shimmer Adult.jpg */; };
 		1E191BF818EF519700712AEF /* Shimmer Baby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1919AC18EF519600712AEF /* Shimmer Baby.jpg */; };
 		1E191BF918EF519700712AEF /* Shimmer Egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1919AD18EF519600712AEF /* Shimmer Egg.jpg */; };
-		1E191BFA18EF519700712AEF /* Light Adult.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1919AF18EF519600712AEF /* Light Adult.jpeg */; };
-		1E191BFB18EF519700712AEF /* Light Baby.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1919B018EF519600712AEF /* Light Baby.jpeg */; };
-		1E191BFC18EF519700712AEF /* Light Egg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1919B118EF519600712AEF /* Light Egg.jpeg */; };
+		1E191BFA18EF519700712AEF /* Light adult.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1919AF18EF519600712AEF /* Light adult.jpeg */; };
+		1E191BFB18EF519700712AEF /* Light baby.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1919B018EF519600712AEF /* Light baby.jpeg */; };
+		1E191BFC18EF519700712AEF /* Light egg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1919B118EF519600712AEF /* Light egg.jpeg */; };
 		1E191BFD18EF519700712AEF /* Ash Adult.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E1919B518EF519600712AEF /* Ash Adult.png */; };
 		1E191BFE18EF519700712AEF /* Ash Baby.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1919B618EF519600712AEF /* Ash Baby.jpeg */; };
 		1E191BFF18EF519700712AEF /* Ash Egg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1919B718EF519600712AEF /* Ash Egg.jpeg */; };
-		1E191C0018EF519700712AEF /* Crystal Adult.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1919B918EF519600712AEF /* Crystal Adult.jpg */; };
-		1E191C0118EF519700712AEF /* Crystal Baby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1919BA18EF519600712AEF /* Crystal Baby.jpg */; };
+		1E191C0018EF519700712AEF /* Crystal adult.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1919B918EF519600712AEF /* Crystal adult.jpg */; };
+		1E191C0118EF519700712AEF /* Crystal baby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1919BA18EF519600712AEF /* Crystal baby.jpg */; };
 		1E191C0218EF519700712AEF /* Crystal egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1919BB18EF519600712AEF /* Crystal egg.jpg */; };
 		1E191C0318EF519700712AEF /* Firefly adult.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1919BD18EF519600712AEF /* Firefly adult.jpg */; };
 		1E191C0418EF519700712AEF /* Firefly Baby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1919BE18EF519600712AEF /* Firefly Baby.jpg */; };
@@ -514,7 +506,7 @@
 		1E191C6718EF519700712AEF /* Tree baby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E191A4618EF519700712AEF /* Tree baby.jpg */; };
 		1E191C6818EF519700712AEF /* Tree egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E191A4718EF519700712AEF /* Tree egg.jpg */; };
 		1E191C6918EF519700712AEF /* Plant adult.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E191A4918EF519700712AEF /* Plant adult.jpeg */; };
-		1E191C6A18EF519700712AEF /* Plant Baby.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E191A4A18EF519700712AEF /* Plant Baby.jpeg */; };
+		1E191C6A18EF519700712AEF /* Plant baby.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E191A4A18EF519700712AEF /* Plant baby.jpeg */; };
 		1E191C6B18EF519700712AEF /* Plant egg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E191A4B18EF519700712AEF /* Plant egg.jpeg */; };
 		1E191C6C18EF519700712AEF /* Abyss Adult.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E191A4F18EF519700712AEF /* Abyss Adult.jpg */; };
 		1E191C6D18EF519700712AEF /* Abyss Baby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E191A5018EF519700712AEF /* Abyss Baby.jpg */; };
@@ -552,15 +544,37 @@
 		1E191C8D18EF519700712AEF /* Water adult.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E191A7B18EF519700712AEF /* Water adult.jpeg */; };
 		1E191C8E18EF519700712AEF /* Water baby.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E191A7C18EF519700712AEF /* Water baby.jpeg */; };
 		1E191C8F18EF519700712AEF /* Water egg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E191A7D18EF519700712AEF /* Water egg.jpeg */; };
-		1E191C9518EF528300712AEF /* url.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E191C9418EF528300712AEF /* url.png */; };
 		1E2C047918FB03F000C696A1 /* Habitat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2C047818FB03F000C696A1 /* Habitat.m */; };
 		1E2C048118FB053F00C696A1 /* HabitatDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2C048018FB053F00C696A1 /* HabitatDatabase.m */; };
+		1E43439019097ED200F69CAA /* Air Habitat.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E43438419097ED200F69CAA /* Air Habitat.png */; };
+		1E43439119097ED200F69CAA /* Cold Habitat.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E43438519097ED200F69CAA /* Cold Habitat.png */; };
+		1E43439219097ED200F69CAA /* Dark Habitat.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E43438619097ED200F69CAA /* Dark Habitat.png */; };
+		1E43439319097ED200F69CAA /* Earth Habitat.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E43438719097ED200F69CAA /* Earth Habitat.png */; };
+		1E43439419097ED200F69CAA /* Fire Habitat.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E43438819097ED200F69CAA /* Fire Habitat.png */; };
+		1E43439519097ED200F69CAA /* Light Habitat.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E43438919097ED200F69CAA /* Light Habitat.png */; };
+		1E43439619097ED200F69CAA /* Lightning Habitat.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E43438A19097ED200F69CAA /* Lightning Habitat.png */; };
+		1E43439719097ED200F69CAA /* Metal Habitat.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E43438B19097ED200F69CAA /* Metal Habitat.png */; };
+		1E43439819097ED200F69CAA /* Perch of Kairos Habitat.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E43438C19097ED200F69CAA /* Perch of Kairos Habitat.png */; };
+		1E43439A19097ED200F69CAA /* Plant Habitat.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E43438E19097ED200F69CAA /* Plant Habitat.png */; };
+		1E43439B19097ED200F69CAA /* Water Habitat.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E43438F19097ED200F69CAA /* Water Habitat.png */; };
+		1E4343A71909821D00F69CAA /* Air Element.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E43439D1909821D00F69CAA /* Air Element.png */; };
+		1E4343A81909821D00F69CAA /* Cold Element.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E43439E1909821D00F69CAA /* Cold Element.png */; };
+		1E4343A91909821D00F69CAA /* Dark Element.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E43439F1909821D00F69CAA /* Dark Element.png */; };
+		1E4343AA1909821D00F69CAA /* Earth Element.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4343A01909821D00F69CAA /* Earth Element.png */; };
+		1E4343AB1909821D00F69CAA /* Fire Element.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4343A11909821D00F69CAA /* Fire Element.png */; };
+		1E4343AC1909821D00F69CAA /* Light Element.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4343A21909821D00F69CAA /* Light Element.png */; };
+		1E4343AD1909821D00F69CAA /* Lightning Element.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4343A31909821D00F69CAA /* Lightning Element.png */; };
+		1E4343AE1909821D00F69CAA /* Metal Element.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4343A41909821D00F69CAA /* Metal Element.png */; };
+		1E4343AF1909821D00F69CAA /* Plant Element.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4343A51909821D00F69CAA /* Plant Element.png */; };
+		1E4343B01909821D00F69CAA /* Water Element.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4343A61909821D00F69CAA /* Water Element.png */; };
 		1E5D398718F86DD10096F73C /* HabitatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5D398518F86DD10096F73C /* HabitatsViewController.m */; };
 		1E5D398818F86DD10096F73C /* HabitatsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E5D398618F86DD10096F73C /* HabitatsViewController.xib */; };
 		1E5D398C18F86DE70096F73C /* HabitatsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5D398B18F86DE70096F73C /* HabitatsCell.m */; };
 		1E5D398E18F86DFF0096F73C /* HabitatsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E5D398D18F86DFF0096F73C /* HabitatsCell.xib */; };
 		1E6D726918F1C6D40057D46B /* StarredDragonsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6D726818F1C6D40057D46B /* StarredDragonsTableViewController.m */; };
 		1ED0A05718F32A9800A9FC3A /* HabitatsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED0A05618F32A9800A9FC3A /* HabitatsTableViewController.m */; };
+		1EF058621909A04200BBCCAC /* Star.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF058611909A04200BBCCAC /* Star.png */; };
+		1EF058641909A23300BBCCAC /* Gemstone Habitat.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF058631909A23300BBCCAC /* Gemstone Habitat.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -588,14 +602,6 @@
 		1E19179518EF3BFB00712AEF /* DVTDragonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DVTDragonCell.xib; sourceTree = "<group>"; };
 		1E19179718EF3E0400712AEF /* DVTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTTableViewController.h; sourceTree = "<group>"; };
 		1E19179818EF3E0400712AEF /* DVTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVTTableViewController.m; sourceTree = "<group>"; };
-		1E1917A018EF519500712AEF /* AirElement.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AirElement.xcf; sourceTree = "<group>"; };
-		1E1917A118EF519500712AEF /* EarthElement.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EarthElement.xcf; sourceTree = "<group>"; };
-		1E1917A218EF519500712AEF /* FireElement.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FireElement.xcf; sourceTree = "<group>"; };
-		1E1917A318EF519500712AEF /* IceElement.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IceElement.xcf; sourceTree = "<group>"; };
-		1E1917A418EF519500712AEF /* LightningElement.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LightningElement.xcf; sourceTree = "<group>"; };
-		1E1917A518EF519500712AEF /* MetalElements.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MetalElements.xcf; sourceTree = "<group>"; };
-		1E1917A618EF519500712AEF /* PlantElement.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PlantElement.xcf; sourceTree = "<group>"; };
-		1E1917A718EF519500712AEF /* WaterElement.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = WaterElement.xcf; sourceTree = "<group>"; };
 		1E1917AB18EF519500712AEF /* Apocalypse adult.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Apocalypse adult.jpg"; sourceTree = "<group>"; };
 		1E1917AC18EF519500712AEF /* Apocalypse baby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Apocalypse baby.jpg"; sourceTree = "<group>"; };
 		1E1917AD18EF519500712AEF /* Apocalypse egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Apocalypse egg.jpg"; sourceTree = "<group>"; };
@@ -745,7 +751,7 @@
 		1E19187418EF519500712AEF /* Silver egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Silver egg.jpg"; sourceTree = "<group>"; };
 		1E19187818EF519500712AEF /* Air adult.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Air adult.jpeg"; sourceTree = "<group>"; };
 		1E19187918EF519500712AEF /* Air baby.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Air baby.jpeg"; sourceTree = "<group>"; };
-		1E19187A18EF519500712AEF /* Air Egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Air Egg.png"; sourceTree = "<group>"; };
+		1E19187A18EF519500712AEF /* Air egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Air egg.png"; sourceTree = "<group>"; };
 		1E19187D18EF519500712AEF /* Blazing adult.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blazing adult.jpg"; sourceTree = "<group>"; };
 		1E19187E18EF519500712AEF /* Blazing baby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blazing baby.jpg"; sourceTree = "<group>"; };
 		1E19187F18EF519500712AEF /* Blazing egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blazing egg.jpg"; sourceTree = "<group>"; };
@@ -785,9 +791,9 @@
 		1E1918AF18EF519600712AEF /* Century adult.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Century adult.jpg"; sourceTree = "<group>"; };
 		1E1918B018EF519600712AEF /* Century baby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Century baby.jpg"; sourceTree = "<group>"; };
 		1E1918B118EF519600712AEF /* Century Egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Century Egg.jpg"; sourceTree = "<group>"; };
-		1E1918B318EF519600712AEF /* Frostfire Adult.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Frostfire Adult.jpg"; sourceTree = "<group>"; };
-		1E1918B418EF519600712AEF /* Frostfire Baby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Frostfire Baby.jpg"; sourceTree = "<group>"; };
-		1E1918B518EF519600712AEF /* Frostfire Egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Frostfire Egg.jpg"; sourceTree = "<group>"; };
+		1E1918B318EF519600712AEF /* Frostfire adult.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Frostfire adult.jpg"; sourceTree = "<group>"; };
+		1E1918B418EF519600712AEF /* Frostfire baby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Frostfire baby.jpg"; sourceTree = "<group>"; };
+		1E1918B518EF519600712AEF /* Frostfire egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Frostfire egg.jpg"; sourceTree = "<group>"; };
 		1E1918B718EF519600712AEF /* Ghost adult.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ghost adult.jpg"; sourceTree = "<group>"; };
 		1E1918B818EF519600712AEF /* Ghost baby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ghost baby.jpg"; sourceTree = "<group>"; };
 		1E1918B918EF519600712AEF /* Ghost egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ghost egg.jpg"; sourceTree = "<group>"; };
@@ -821,9 +827,9 @@
 		1E1918DF18EF519600712AEF /* Snow adult.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Snow adult.jpg"; sourceTree = "<group>"; };
 		1E1918E018EF519600712AEF /* Snow baby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Snow baby.jpg"; sourceTree = "<group>"; };
 		1E1918E118EF519600712AEF /* Snow egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Snow egg.jpg"; sourceTree = "<group>"; };
-		1E1918E418EF519600712AEF /* Dark Adult.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dark Adult.jpeg"; sourceTree = "<group>"; };
+		1E1918E418EF519600712AEF /* Dark adult.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dark adult.jpeg"; sourceTree = "<group>"; };
 		1E1918E518EF519600712AEF /* Dark baby.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dark baby.jpeg"; sourceTree = "<group>"; };
-		1E1918E618EF519600712AEF /* Dark Egg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dark Egg.jpeg"; sourceTree = "<group>"; };
+		1E1918E618EF519600712AEF /* Dark egg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dark egg.jpeg"; sourceTree = "<group>"; };
 		1E1918E918EF519600712AEF /* Acid Adult.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Acid Adult.jpg"; sourceTree = "<group>"; };
 		1E1918EA18EF519600712AEF /* Acid Baby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Acid Baby.jpg"; sourceTree = "<group>"; };
 		1E1918EB18EF519600712AEF /* Acid Egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Acid Egg.jpg"; sourceTree = "<group>"; };
@@ -968,14 +974,14 @@
 		1E1919AB18EF519600712AEF /* Shimmer Adult.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Shimmer Adult.jpg"; sourceTree = "<group>"; };
 		1E1919AC18EF519600712AEF /* Shimmer Baby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Shimmer Baby.jpg"; sourceTree = "<group>"; };
 		1E1919AD18EF519600712AEF /* Shimmer Egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Shimmer Egg.jpg"; sourceTree = "<group>"; };
-		1E1919AF18EF519600712AEF /* Light Adult.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Light Adult.jpeg"; sourceTree = "<group>"; };
-		1E1919B018EF519600712AEF /* Light Baby.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Light Baby.jpeg"; sourceTree = "<group>"; };
-		1E1919B118EF519600712AEF /* Light Egg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Light Egg.jpeg"; sourceTree = "<group>"; };
+		1E1919AF18EF519600712AEF /* Light adult.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Light adult.jpeg"; sourceTree = "<group>"; };
+		1E1919B018EF519600712AEF /* Light baby.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Light baby.jpeg"; sourceTree = "<group>"; };
+		1E1919B118EF519600712AEF /* Light egg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Light egg.jpeg"; sourceTree = "<group>"; };
 		1E1919B518EF519600712AEF /* Ash Adult.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ash Adult.png"; sourceTree = "<group>"; };
 		1E1919B618EF519600712AEF /* Ash Baby.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ash Baby.jpeg"; sourceTree = "<group>"; };
 		1E1919B718EF519600712AEF /* Ash Egg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ash Egg.jpeg"; sourceTree = "<group>"; };
-		1E1919B918EF519600712AEF /* Crystal Adult.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Crystal Adult.jpg"; sourceTree = "<group>"; };
-		1E1919BA18EF519600712AEF /* Crystal Baby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Crystal Baby.jpg"; sourceTree = "<group>"; };
+		1E1919B918EF519600712AEF /* Crystal adult.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Crystal adult.jpg"; sourceTree = "<group>"; };
+		1E1919BA18EF519600712AEF /* Crystal baby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Crystal baby.jpg"; sourceTree = "<group>"; };
 		1E1919BB18EF519600712AEF /* Crystal egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Crystal egg.jpg"; sourceTree = "<group>"; };
 		1E1919BD18EF519600712AEF /* Firefly adult.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Firefly adult.jpg"; sourceTree = "<group>"; };
 		1E1919BE18EF519600712AEF /* Firefly Baby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Firefly Baby.jpg"; sourceTree = "<group>"; };
@@ -1080,7 +1086,7 @@
 		1E191A4618EF519700712AEF /* Tree baby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tree baby.jpg"; sourceTree = "<group>"; };
 		1E191A4718EF519700712AEF /* Tree egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tree egg.jpg"; sourceTree = "<group>"; };
 		1E191A4918EF519700712AEF /* Plant adult.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Plant adult.jpeg"; sourceTree = "<group>"; };
-		1E191A4A18EF519700712AEF /* Plant Baby.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Plant Baby.jpeg"; sourceTree = "<group>"; };
+		1E191A4A18EF519700712AEF /* Plant baby.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Plant baby.jpeg"; sourceTree = "<group>"; };
 		1E191A4B18EF519700712AEF /* Plant egg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Plant egg.jpeg"; sourceTree = "<group>"; };
 		1E191A4F18EF519700712AEF /* Abyss Adult.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Abyss Adult.jpg"; sourceTree = "<group>"; };
 		1E191A5018EF519700712AEF /* Abyss Baby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Abyss Baby.jpg"; sourceTree = "<group>"; };
@@ -1118,11 +1124,31 @@
 		1E191A7B18EF519700712AEF /* Water adult.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Water adult.jpeg"; sourceTree = "<group>"; };
 		1E191A7C18EF519700712AEF /* Water baby.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Water baby.jpeg"; sourceTree = "<group>"; };
 		1E191A7D18EF519700712AEF /* Water egg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Water egg.jpeg"; sourceTree = "<group>"; };
-		1E191C9418EF528300712AEF /* url.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = url.png; path = ../../../../../Desktop/url.png; sourceTree = "<group>"; };
 		1E2C047718FB03F000C696A1 /* Habitat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Habitat.h; sourceTree = "<group>"; };
 		1E2C047818FB03F000C696A1 /* Habitat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Habitat.m; sourceTree = "<group>"; };
 		1E2C047F18FB053F00C696A1 /* HabitatDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HabitatDatabase.h; sourceTree = "<group>"; };
 		1E2C048018FB053F00C696A1 /* HabitatDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HabitatDatabase.m; sourceTree = "<group>"; };
+		1E43438419097ED200F69CAA /* Air Habitat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Air Habitat.png"; sourceTree = "<group>"; };
+		1E43438519097ED200F69CAA /* Cold Habitat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cold Habitat.png"; sourceTree = "<group>"; };
+		1E43438619097ED200F69CAA /* Dark Habitat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dark Habitat.png"; sourceTree = "<group>"; };
+		1E43438719097ED200F69CAA /* Earth Habitat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Earth Habitat.png"; sourceTree = "<group>"; };
+		1E43438819097ED200F69CAA /* Fire Habitat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fire Habitat.png"; sourceTree = "<group>"; };
+		1E43438919097ED200F69CAA /* Light Habitat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Light Habitat.png"; sourceTree = "<group>"; };
+		1E43438A19097ED200F69CAA /* Lightning Habitat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lightning Habitat.png"; sourceTree = "<group>"; };
+		1E43438B19097ED200F69CAA /* Metal Habitat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Metal Habitat.png"; sourceTree = "<group>"; };
+		1E43438C19097ED200F69CAA /* Perch of Kairos Habitat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Perch of Kairos Habitat.png"; sourceTree = "<group>"; };
+		1E43438E19097ED200F69CAA /* Plant Habitat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plant Habitat.png"; sourceTree = "<group>"; };
+		1E43438F19097ED200F69CAA /* Water Habitat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Water Habitat.png"; sourceTree = "<group>"; };
+		1E43439D1909821D00F69CAA /* Air Element.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Air Element.png"; sourceTree = "<group>"; };
+		1E43439E1909821D00F69CAA /* Cold Element.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cold Element.png"; sourceTree = "<group>"; };
+		1E43439F1909821D00F69CAA /* Dark Element.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dark Element.png"; sourceTree = "<group>"; };
+		1E4343A01909821D00F69CAA /* Earth Element.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Earth Element.png"; sourceTree = "<group>"; };
+		1E4343A11909821D00F69CAA /* Fire Element.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fire Element.png"; sourceTree = "<group>"; };
+		1E4343A21909821D00F69CAA /* Light Element.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Light Element.png"; sourceTree = "<group>"; };
+		1E4343A31909821D00F69CAA /* Lightning Element.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lightning Element.png"; sourceTree = "<group>"; };
+		1E4343A41909821D00F69CAA /* Metal Element.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Metal Element.png"; sourceTree = "<group>"; };
+		1E4343A51909821D00F69CAA /* Plant Element.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plant Element.png"; sourceTree = "<group>"; };
+		1E4343A61909821D00F69CAA /* Water Element.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Water Element.png"; sourceTree = "<group>"; };
 		1E5D398418F86DD10096F73C /* HabitatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HabitatsViewController.h; sourceTree = "<group>"; };
 		1E5D398518F86DD10096F73C /* HabitatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HabitatsViewController.m; sourceTree = "<group>"; };
 		1E5D398618F86DD10096F73C /* HabitatsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HabitatsViewController.xib; sourceTree = "<group>"; };
@@ -1133,6 +1159,8 @@
 		1E6D726818F1C6D40057D46B /* StarredDragonsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarredDragonsTableViewController.m; sourceTree = "<group>"; };
 		1ED0A05518F32A9800A9FC3A /* HabitatsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HabitatsTableViewController.h; sourceTree = "<group>"; };
 		1ED0A05618F32A9800A9FC3A /* HabitatsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HabitatsTableViewController.m; sourceTree = "<group>"; };
+		1EF058611909A04200BBCCAC /* Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Star.png; path = ../../Star.png; sourceTree = "<group>"; };
+		1EF058631909A23300BBCCAC /* Gemstone Habitat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gemstone Habitat.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1211,7 +1239,6 @@
 				1E2C047818FB03F000C696A1 /* Habitat.m */,
 				1E2C047F18FB053F00C696A1 /* HabitatDatabase.h */,
 				1E2C048018FB053F00C696A1 /* HabitatDatabase.m */,
-				1E191C9418EF528300712AEF /* url.png */,
 				1E19177418EF34D000712AEF /* Supporting Files */,
 			);
 			path = DragonValeTracker;
@@ -1231,8 +1258,10 @@
 		1E19179E18EF519500712AEF /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				1EF058611909A04200BBCCAC /* Star.png */,
 				1E19179F18EF519500712AEF /* Elements */,
 				1E1917A818EF519500712AEF /* Epic */,
+				1E43438319097ED200F69CAA /* Habitats */,
 				1E19187518EF519500712AEF /* Regular */,
 			);
 			name = Pictures;
@@ -1242,14 +1271,16 @@
 		1E19179F18EF519500712AEF /* Elements */ = {
 			isa = PBXGroup;
 			children = (
-				1E1917A018EF519500712AEF /* AirElement.xcf */,
-				1E1917A118EF519500712AEF /* EarthElement.xcf */,
-				1E1917A218EF519500712AEF /* FireElement.xcf */,
-				1E1917A318EF519500712AEF /* IceElement.xcf */,
-				1E1917A418EF519500712AEF /* LightningElement.xcf */,
-				1E1917A518EF519500712AEF /* MetalElements.xcf */,
-				1E1917A618EF519500712AEF /* PlantElement.xcf */,
-				1E1917A718EF519500712AEF /* WaterElement.xcf */,
+				1E43439D1909821D00F69CAA /* Air Element.png */,
+				1E43439E1909821D00F69CAA /* Cold Element.png */,
+				1E43439F1909821D00F69CAA /* Dark Element.png */,
+				1E4343A01909821D00F69CAA /* Earth Element.png */,
+				1E4343A11909821D00F69CAA /* Fire Element.png */,
+				1E4343A21909821D00F69CAA /* Light Element.png */,
+				1E4343A31909821D00F69CAA /* Lightning Element.png */,
+				1E4343A41909821D00F69CAA /* Metal Element.png */,
+				1E4343A51909821D00F69CAA /* Plant Element.png */,
+				1E4343A61909821D00F69CAA /* Water Element.png */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -1895,7 +1926,7 @@
 			children = (
 				1E19187818EF519500712AEF /* Air adult.jpeg */,
 				1E19187918EF519500712AEF /* Air baby.jpeg */,
-				1E19187A18EF519500712AEF /* Air Egg.png */,
+				1E19187A18EF519500712AEF /* Air egg.png */,
 			);
 			path = Air;
 			sourceTree = "<group>";
@@ -2080,9 +2111,9 @@
 		1E1918B218EF519600712AEF /* Frostfire */ = {
 			isa = PBXGroup;
 			children = (
-				1E1918B318EF519600712AEF /* Frostfire Adult.jpg */,
-				1E1918B418EF519600712AEF /* Frostfire Baby.jpg */,
-				1E1918B518EF519600712AEF /* Frostfire Egg.jpg */,
+				1E1918B318EF519600712AEF /* Frostfire adult.jpg */,
+				1E1918B418EF519600712AEF /* Frostfire baby.jpg */,
+				1E1918B518EF519600712AEF /* Frostfire egg.jpg */,
 			);
 			path = Frostfire;
 			sourceTree = "<group>";
@@ -2209,9 +2240,9 @@
 		1E1918E318EF519600712AEF /* Dark */ = {
 			isa = PBXGroup;
 			children = (
-				1E1918E418EF519600712AEF /* Dark Adult.jpeg */,
+				1E1918E418EF519600712AEF /* Dark adult.jpeg */,
 				1E1918E518EF519600712AEF /* Dark baby.jpeg */,
-				1E1918E618EF519600712AEF /* Dark Egg.jpeg */,
+				1E1918E618EF519600712AEF /* Dark egg.jpeg */,
 			);
 			path = Dark;
 			sourceTree = "<group>";
@@ -2800,9 +2831,9 @@
 		1E1919AE18EF519600712AEF /* Light */ = {
 			isa = PBXGroup;
 			children = (
-				1E1919AF18EF519600712AEF /* Light Adult.jpeg */,
-				1E1919B018EF519600712AEF /* Light Baby.jpeg */,
-				1E1919B118EF519600712AEF /* Light Egg.jpeg */,
+				1E1919AF18EF519600712AEF /* Light adult.jpeg */,
+				1E1919B018EF519600712AEF /* Light baby.jpeg */,
+				1E1919B118EF519600712AEF /* Light egg.jpeg */,
 			);
 			path = Light;
 			sourceTree = "<group>";
@@ -2846,8 +2877,8 @@
 		1E1919B818EF519600712AEF /* Crystal */ = {
 			isa = PBXGroup;
 			children = (
-				1E1919B918EF519600712AEF /* Crystal Adult.jpg */,
-				1E1919BA18EF519600712AEF /* Crystal Baby.jpg */,
+				1E1919B918EF519600712AEF /* Crystal adult.jpg */,
+				1E1919BA18EF519600712AEF /* Crystal baby.jpg */,
 				1E1919BB18EF519600712AEF /* Crystal egg.jpg */,
 			);
 			path = Crystal;
@@ -3253,7 +3284,7 @@
 			isa = PBXGroup;
 			children = (
 				1E191A4918EF519700712AEF /* Plant adult.jpeg */,
-				1E191A4A18EF519700712AEF /* Plant Baby.jpeg */,
+				1E191A4A18EF519700712AEF /* Plant baby.jpeg */,
 				1E191A4B18EF519700712AEF /* Plant egg.jpeg */,
 			);
 			path = Plant;
@@ -3406,6 +3437,25 @@
 			path = Water;
 			sourceTree = "<group>";
 		};
+		1E43438319097ED200F69CAA /* Habitats */ = {
+			isa = PBXGroup;
+			children = (
+				1E43438419097ED200F69CAA /* Air Habitat.png */,
+				1E43438519097ED200F69CAA /* Cold Habitat.png */,
+				1E43438619097ED200F69CAA /* Dark Habitat.png */,
+				1E43438719097ED200F69CAA /* Earth Habitat.png */,
+				1EF058631909A23300BBCCAC /* Gemstone Habitat.png */,
+				1E43438819097ED200F69CAA /* Fire Habitat.png */,
+				1E43438919097ED200F69CAA /* Light Habitat.png */,
+				1E43438A19097ED200F69CAA /* Lightning Habitat.png */,
+				1E43438B19097ED200F69CAA /* Metal Habitat.png */,
+				1E43438C19097ED200F69CAA /* Perch of Kairos Habitat.png */,
+				1E43438E19097ED200F69CAA /* Plant Habitat.png */,
+				1E43438F19097ED200F69CAA /* Water Habitat.png */,
+			);
+			path = Habitats;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -3461,14 +3511,6 @@
 				1E19177818EF34D000712AEF /* InfoPlist.strings in Resources */,
 				1E19179118EF37CE00712AEF /* DVTViewController.xib in Resources */,
 				1E19179618EF3BFB00712AEF /* DVTDragonCell.xib in Resources */,
-				1E191A7E18EF519700712AEF /* AirElement.xcf in Resources */,
-				1E191A7F18EF519700712AEF /* EarthElement.xcf in Resources */,
-				1E191A8018EF519700712AEF /* FireElement.xcf in Resources */,
-				1E191A8118EF519700712AEF /* IceElement.xcf in Resources */,
-				1E191A8218EF519700712AEF /* LightningElement.xcf in Resources */,
-				1E191A8318EF519700712AEF /* MetalElements.xcf in Resources */,
-				1E191A8418EF519700712AEF /* PlantElement.xcf in Resources */,
-				1E191A8518EF519700712AEF /* WaterElement.xcf in Resources */,
 				1E191A8618EF519700712AEF /* Apocalypse adult.jpg in Resources */,
 				1E191A8718EF519700712AEF /* Apocalypse baby.jpg in Resources */,
 				1E191A8818EF519700712AEF /* Apocalypse egg.jpg in Resources */,
@@ -3618,7 +3660,7 @@
 				1E191B1818EF519700712AEF /* Silver egg.jpg in Resources */,
 				1E191B1918EF519700712AEF /* Air adult.jpeg in Resources */,
 				1E191B1A18EF519700712AEF /* Air baby.jpeg in Resources */,
-				1E191B1B18EF519700712AEF /* Air Egg.png in Resources */,
+				1E191B1B18EF519700712AEF /* Air egg.png in Resources */,
 				1E191B1C18EF519700712AEF /* Blazing adult.jpg in Resources */,
 				1E191B1D18EF519700712AEF /* Blazing baby.jpg in Resources */,
 				1E191B1E18EF519700712AEF /* Blazing egg.jpg in Resources */,
@@ -3658,9 +3700,9 @@
 				1E191B4018EF519700712AEF /* Century adult.jpg in Resources */,
 				1E191B4118EF519700712AEF /* Century baby.jpg in Resources */,
 				1E191B4218EF519700712AEF /* Century Egg.jpg in Resources */,
-				1E191B4318EF519700712AEF /* Frostfire Adult.jpg in Resources */,
-				1E191B4418EF519700712AEF /* Frostfire Baby.jpg in Resources */,
-				1E191B4518EF519700712AEF /* Frostfire Egg.jpg in Resources */,
+				1E191B4318EF519700712AEF /* Frostfire adult.jpg in Resources */,
+				1E191B4418EF519700712AEF /* Frostfire baby.jpg in Resources */,
+				1E191B4518EF519700712AEF /* Frostfire egg.jpg in Resources */,
 				1E191B4618EF519700712AEF /* Ghost adult.jpg in Resources */,
 				1E191B4718EF519700712AEF /* Ghost baby.jpg in Resources */,
 				1E191B4818EF519700712AEF /* Ghost egg.jpg in Resources */,
@@ -3694,9 +3736,9 @@
 				1E191B6418EF519700712AEF /* Snow adult.jpg in Resources */,
 				1E191B6518EF519700712AEF /* Snow baby.jpg in Resources */,
 				1E191B6618EF519700712AEF /* Snow egg.jpg in Resources */,
-				1E191B6718EF519700712AEF /* Dark Adult.jpeg in Resources */,
+				1E191B6718EF519700712AEF /* Dark adult.jpeg in Resources */,
 				1E191B6818EF519700712AEF /* Dark baby.jpeg in Resources */,
-				1E191B6918EF519700712AEF /* Dark Egg.jpeg in Resources */,
+				1E191B6918EF519700712AEF /* Dark egg.jpeg in Resources */,
 				1E191B6A18EF519700712AEF /* Acid Adult.jpg in Resources */,
 				1E191B6B18EF519700712AEF /* Acid Baby.jpg in Resources */,
 				1E191B6C18EF519700712AEF /* Acid Egg.jpg in Resources */,
@@ -3841,14 +3883,14 @@
 				1E191BF718EF519700712AEF /* Shimmer Adult.jpg in Resources */,
 				1E191BF818EF519700712AEF /* Shimmer Baby.jpg in Resources */,
 				1E191BF918EF519700712AEF /* Shimmer Egg.jpg in Resources */,
-				1E191BFA18EF519700712AEF /* Light Adult.jpeg in Resources */,
-				1E191BFB18EF519700712AEF /* Light Baby.jpeg in Resources */,
-				1E191BFC18EF519700712AEF /* Light Egg.jpeg in Resources */,
+				1E191BFA18EF519700712AEF /* Light adult.jpeg in Resources */,
+				1E191BFB18EF519700712AEF /* Light baby.jpeg in Resources */,
+				1E191BFC18EF519700712AEF /* Light egg.jpeg in Resources */,
 				1E191BFD18EF519700712AEF /* Ash Adult.png in Resources */,
 				1E191BFE18EF519700712AEF /* Ash Baby.jpeg in Resources */,
 				1E191BFF18EF519700712AEF /* Ash Egg.jpeg in Resources */,
-				1E191C0018EF519700712AEF /* Crystal Adult.jpg in Resources */,
-				1E191C0118EF519700712AEF /* Crystal Baby.jpg in Resources */,
+				1E191C0018EF519700712AEF /* Crystal adult.jpg in Resources */,
+				1E191C0118EF519700712AEF /* Crystal baby.jpg in Resources */,
 				1E191C0218EF519700712AEF /* Crystal egg.jpg in Resources */,
 				1E191C0318EF519700712AEF /* Firefly adult.jpg in Resources */,
 				1E191C0418EF519700712AEF /* Firefly Baby.jpg in Resources */,
@@ -3953,7 +3995,7 @@
 				1E191C6718EF519700712AEF /* Tree baby.jpg in Resources */,
 				1E191C6818EF519700712AEF /* Tree egg.jpg in Resources */,
 				1E191C6918EF519700712AEF /* Plant adult.jpeg in Resources */,
-				1E191C6A18EF519700712AEF /* Plant Baby.jpeg in Resources */,
+				1E191C6A18EF519700712AEF /* Plant baby.jpeg in Resources */,
 				1E191C6B18EF519700712AEF /* Plant egg.jpeg in Resources */,
 				1E191C6C18EF519700712AEF /* Abyss Adult.jpg in Resources */,
 				1E191C6D18EF519700712AEF /* Abyss Baby.jpg in Resources */,
@@ -3991,9 +4033,31 @@
 				1E191C8D18EF519700712AEF /* Water adult.jpeg in Resources */,
 				1E191C8E18EF519700712AEF /* Water baby.jpeg in Resources */,
 				1E191C8F18EF519700712AEF /* Water egg.jpeg in Resources */,
-				1E191C9518EF528300712AEF /* url.png in Resources */,
 				1E5D398818F86DD10096F73C /* HabitatsViewController.xib in Resources */,
 				1E5D398E18F86DFF0096F73C /* HabitatsCell.xib in Resources */,
+				1E43439019097ED200F69CAA /* Air Habitat.png in Resources */,
+				1E43439119097ED200F69CAA /* Cold Habitat.png in Resources */,
+				1E43439219097ED200F69CAA /* Dark Habitat.png in Resources */,
+				1E43439319097ED200F69CAA /* Earth Habitat.png in Resources */,
+				1E43439419097ED200F69CAA /* Fire Habitat.png in Resources */,
+				1E43439519097ED200F69CAA /* Light Habitat.png in Resources */,
+				1E43439619097ED200F69CAA /* Lightning Habitat.png in Resources */,
+				1E43439719097ED200F69CAA /* Metal Habitat.png in Resources */,
+				1E43439819097ED200F69CAA /* Perch of Kairos Habitat.png in Resources */,
+				1E43439A19097ED200F69CAA /* Plant Habitat.png in Resources */,
+				1E43439B19097ED200F69CAA /* Water Habitat.png in Resources */,
+				1E4343A71909821D00F69CAA /* Air Element.png in Resources */,
+				1E4343A81909821D00F69CAA /* Cold Element.png in Resources */,
+				1E4343A91909821D00F69CAA /* Dark Element.png in Resources */,
+				1E4343AA1909821D00F69CAA /* Earth Element.png in Resources */,
+				1E4343AB1909821D00F69CAA /* Fire Element.png in Resources */,
+				1E4343AC1909821D00F69CAA /* Light Element.png in Resources */,
+				1E4343AD1909821D00F69CAA /* Lightning Element.png in Resources */,
+				1E4343AE1909821D00F69CAA /* Metal Element.png in Resources */,
+				1E4343AF1909821D00F69CAA /* Plant Element.png in Resources */,
+				1E4343B01909821D00F69CAA /* Water Element.png in Resources */,
+				1EF058621909A04200BBCCAC /* Star.png in Resources */,
+				1EF058641909A23300BBCCAC /* Gemstone Habitat.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,37 +20,94 @@
         dragons = [[NSMutableArray alloc] init];
         starredDragons = [[NSMutableArray alloc] init];
         
+        [self populateDragons];
         
-        // this is to make one dragon show up in the table for testing purposes early
-        // TESTING
-        Dragon *newDragon = [[Dragon alloc] init];
-        [newDragon setDragonName:@"First Dragon"];
-        [newDragon setDesriptionOfDragon:@"This dragon is cool"];
-        [newDragon setNumberOfDragons:2];
-        [newDragon setNumberOfEggs:1];
-        [newDragon setBuyPrice:500];
-        [newDragon setLevelAvailability:1];
-        [newDragon setSellPrice:0];
-        
-        [dragons addObject:newDragon];
-        
-        newDragon = [[Dragon alloc] init];
-        [newDragon setDragonName:@"Second Dragon"];
-        [newDragon setDesriptionOfDragon:@"This dragon is super duper cool"];
-        [newDragon setNumberOfDragons:1];
-        [newDragon setNumberOfEggs:0];
-        [newDragon setBuyPrice:500];
-        [newDragon setLevelAvailability:10];
-        [newDragon setSellPrice:0];
-        
-        [dragons addObject:newDragon];
-        
-        [starredDragons addObject:newDragon];
-        
-        // TESTING
     }
     
     return self;
+}
+
+- (void) sortDragons
+{
+    NSArray *sortedTasks = [dragons sortedArrayUsingComparator:^NSComparisonResult(id obj1, id obj2) {
+        NSString *d1 = [obj1 dragonName];
+        NSString *d2 = [obj2 dragonName];
+        return [d1 compare:d2];
+    }];
+    
+    dragons = [NSMutableArray arrayWithArray:sortedTasks];
+}
+
+- (void) populateDragons
+{    
+    NSArray *dragonNames = [NSArray arrayWithObjects:@"Air", @"Cold", @"Dark", @"Earth", @"Fire", @"Light", @"Lightning", @"Metal", @"Plant", @"Water", nil];
+     
+    NSString *plantDescription     = @"This dragon likes plants";
+    NSString *fireDescription      = @"This dragon is full of fire";
+    NSString *earthDescription     = @"This dragon is down to earth";
+    NSString *airDescription       = @"This dragon likes to fly";
+    NSString *coldDescription      = @"This dragon loves the snow";
+    NSString *darkDescription      = @"This dragon is not afraid of the dark";
+    NSString *lightDescription     = @"This dragon is a light in the dark";
+    NSString *lightningDescription = @"This dragon is sparkie";
+    NSString *metalDescription     = @"This dragon is super shiny";
+    NSString *waterDescription     = @"This dragon is a fish";
+    
+    NSArray *dragonDescriptions = [NSArray arrayWithObjects:plantDescription, fireDescription, earthDescription, airDescription, coldDescription, darkDescription, lightDescription, lightningDescription, metalDescription, waterDescription, nil];
+      
+    
+    for (int i = 0; i < [dragonNames count]; i++) {
+        
+        Dragon *newDragon = [[Dragon alloc] init];
+        
+        NSString *dragonName = [dragonNames objectAtIndex:i];
+        
+        [newDragon setDragonName:[NSString stringWithFormat:@"%@ Dragon", dragonName]];
+        [newDragon setDesriptionOfDragon:[dragonDescriptions objectAtIndex:i]];
+        [newDragon setElements:[NSArray arrayWithObjects:dragonName, nil]];
+        [newDragon setNumberOfDragons:0];
+        [newDragon setNumberOfEggs:0];
+        [newDragon setBuyPrice:0];
+        [newDragon setLevelAvailability:0];
+        [newDragon setSellPrice:0];
+        // add the image from the file
+        [newDragon setAdultDragon:[UIImage imageNamed:[NSString stringWithFormat:@"%@ adult.jpeg", dragonName]]];
+        [newDragon setBabyDragon:[UIImage imageNamed:[NSString stringWithFormat:@"%@ baby.jpeg", dragonName]]];
+        [newDragon setDragonEgg:[UIImage imageNamed:[NSString stringWithFormat:@"%@ egg.jpeg", dragonName]]];
+        [dragons addObject:newDragon];
+    }
+    
+    // this dragon is to test to see if the multiple elements will be shown in the table
+    Dragon *hybridDragon = [[Dragon alloc] init];
+    [hybridDragon setDragonName:@"Crystal Dragon"];
+    [hybridDragon setDesriptionOfDragon:@"This is a wonderful purple crystal"];
+    [hybridDragon setElements:[NSArray arrayWithObjects:@"Lightning", @"Earth", nil]];
+    [hybridDragon setNumberOfDragons:0];
+    [hybridDragon setNumberOfEggs:0];
+    [hybridDragon setBuyPrice:0];
+    [hybridDragon setLevelAvailability:0];
+    [hybridDragon setSellPrice:0];
+    // add the image from the file
+    [hybridDragon setAdultDragon:[UIImage imageNamed:@"Crystal adult.jpg"]];
+    [hybridDragon setBabyDragon:[UIImage imageNamed:@"Crystal baby.jpg"]];
+    [hybridDragon setDragonEgg:[UIImage imageNamed:@"Crystal egg.jpg"]];
+    [dragons addObject:hybridDragon];
+    
+    hybridDragon = [[Dragon alloc] init];
+    [hybridDragon setDragonName:@"Panlong"];
+    [hybridDragon setDesriptionOfDragon:@"This is a chinese dragon"];
+    [hybridDragon setElements:[NSArray arrayWithObjects:@"Water", @"Earth", @"Fire", @"Air", nil]];
+    [hybridDragon setNumberOfDragons:2];
+    [hybridDragon setNumberOfEggs:4];
+    [hybridDragon setBuyPrice:0];
+    [hybridDragon setLevelAvailability:0];
+    [hybridDragon setSellPrice:0];
+    // add the image from the file
+    [hybridDragon setAdultDragon:[UIImage imageNamed:@"Panlong adult.jpg"]];
+    [hybridDragon setBabyDragon:[UIImage imageNamed:@"Panlong baby.jpg"]];
+    [hybridDragon setDragonEgg:[UIImage imageNamed:@"Panlong egg.jpg"]];
+    [dragons addObject:hybridDragon];
+    
 }
 
 

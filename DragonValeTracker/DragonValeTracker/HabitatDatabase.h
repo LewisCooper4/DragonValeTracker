@@ -24,4 +24,6 @@
 
 - (NSArray *) allHabitats;
 
+- (void) populateHabitats;
+
 @end

@@ -11,6 +11,7 @@
 #import "HabitatDatabase.h"
 #import "HabitatsCell.h"
 #import "Habitat.h"
+#import "HabitatsViewController.h"
 
 @interface HabitatsTableViewController ()
 
@@ -28,6 +29,12 @@
         
         UINavigationItem *navItem = [self navigationItem];
         [navItem setTitle:@"Habitats"];
+        
+        UIBarButtonItem *bbi = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addNewHabitat:)];
+        
+        [[self navigationItem] setRightBarButtonItem:bbi];
+        
+        [[self navigationItem] setLeftBarButtonItem:[self editButtonItem]];
         
     }
     return self;
@@ -59,13 +66,13 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-#pragma mark - Table view data source
-
+/*
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
     return 0;
 }
+ */
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -82,9 +89,15 @@
     [[cell habitatImage] setImage:habitat.habitatImage];
     [[cell habitatNameLabel] setText:habitat.habitatElement];
     [[cell totalEarningsLabel] setText:[NSString stringWithFormat:@"Total Earnings %d", [habitat getEarnings]]];
-    [[cell elementLabel] setImage:[UIImage imageNamed:@"url.png"]];
+    [[cell elementLabel] setImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@ Element", habitat.habitatElement]]];
     
     return cell;
+}
+
+
+- (void) addNewHabitat:(id)sender
+{
+    NSLog(@"This will eventually allow for creation of new habitats");
 }
 
 /*
@@ -130,13 +143,14 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+    
+     HabitatsViewController *hvc = [[HabitatsViewController alloc] init];
      // ...
      // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     */
+    
+    [hvc setCurrentHabitat:[[HabitatDatabase sharedHabitatDatabase] habitatAtIndex:[indexPath row]]];
+    
+     [self.navigationController pushViewController:hvc animated:YES];
 }
 
 @end

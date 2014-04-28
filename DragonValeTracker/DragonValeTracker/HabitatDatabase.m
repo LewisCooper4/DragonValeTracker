@@ -21,6 +21,9 @@
     if (self) {
         habitats = [[NSMutableArray alloc] init];
         
+        [self populateHabitats];
+        
+        /*
         Habitat *plantHabitat = [[Habitat alloc] init];
         
         [plantHabitat setHabitatElement:@"Plant"];
@@ -47,6 +50,7 @@
         [plantHabitat setDragons:[NSArray arrayWithObjects:firstDragon, secondDragon, nil]];
         
         [habitats addObject:plantHabitat];
+         */
         
     }
     
@@ -81,6 +85,22 @@
 - (NSArray *) allHabitats
 {
     return habitats;
+}
+
+- (void) populateHabitats
+{
+    
+    NSArray *habitatNames = [NSArray arrayWithObjects:@"Air", @"Cold", @"Dark", @"Earth", @"Fire", @"Light",   @"Lightning", @"Metal", @"Plant", @"Water", nil];
+    
+    for (int i = 0; i < [habitatNames count]; i++) {
+        
+        NSString *habitatName = [habitatNames objectAtIndex:i];
+        
+        Habitat *newHabitat = [[Habitat alloc] init];
+        [newHabitat setHabitatElement:habitatName];
+        [newHabitat setHabitatImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@ Habitat.png", habitatName]]];
+        [habitats addObject:newHabitat];
+    }
 }
 
 @end

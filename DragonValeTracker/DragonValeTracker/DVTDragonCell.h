@@ -15,6 +15,10 @@
 @property (weak, nonatomic) IBOutlet UILabel *dragonNameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *numberOfDragonsAndEggsLabel;
 
+
+
+@property (strong, nonatomic) IBOutletCollection(UIImageView) NSArray *elementImages;
+
 // use these for the types of the dragons
 @property (weak, nonatomic) IBOutlet UIImageView *element1Image;
 @property (weak, nonatomic) IBOutlet UIImageView *element2Image;

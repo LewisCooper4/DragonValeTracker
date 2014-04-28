@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Dragon : NSObject
+@interface Dragon : NSObject <NSCoding>
 
 
 // name of the dragon

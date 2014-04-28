@@ -30,6 +30,10 @@
 
 - (void) moveDragonAtIndex:(int)from toIndex:(int)to;
 
+- (void) populateDragons;
+
+- (void) sortDragons;
+
 // use this to check if the dragon is a part of the list or not
 - (BOOL) doesDragonExist:(Dragon *)testDragon;
 

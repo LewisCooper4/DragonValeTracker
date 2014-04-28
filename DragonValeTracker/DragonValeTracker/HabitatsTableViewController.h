@@ -15,4 +15,7 @@
     HabitatDatabase *habitatDatabase;
 }
 
+
+- (void) addNewHabitat:(id)sender;
+
 @end

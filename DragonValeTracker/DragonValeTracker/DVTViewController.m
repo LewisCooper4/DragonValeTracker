@@ -65,9 +65,12 @@
     
     
     // set each of the elements to the images set for the positive elements
-    for (int i = 0; i < currentDragon.positiveElements.count; i++) {
+    for (int i = 0; i < currentDragon.elements.count; i++) {
         // set the image of each element to the element image corresponding to the element
-        //[self.positiveElements objectAtIndex:i] setImage:(UIImage *)
+        
+        NSString *elementString = [[currentDragon elements] objectAtIndex:i];
+        
+        [[self.positiveElements objectAtIndex:i] setImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@ Element.png", elementString]]];
     }
     
     // set each of the elements to the images set for the negative elements

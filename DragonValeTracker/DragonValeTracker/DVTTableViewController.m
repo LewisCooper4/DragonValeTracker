@@ -28,9 +28,6 @@
         UINavigationItem *navItem = [self navigationItem];
         [navItem setTitle:@"Dragon Vale"];
         
-        UITabBarItem *tbi = [self tabBarItem];
-        [tbi setTitle:@"Dragon Vale"];
-        
     }
     return self;
 }
@@ -58,6 +55,12 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+}
+
+
+- (void) viewWillAppear:(BOOL)animated
+{
+    [dragonDatabase sortDragons];
 }
 
 - (void)didReceiveMemoryWarning
@@ -97,7 +100,16 @@
      [[cell numberOfDragonsAndEggsLabel] setText:[NSString stringWithFormat:@"Dragons:%d Eggs:%d", dragon.numberOfDragons, dragon.numberOfEggs]];
     
     // go through the array of dragon elements to put into the uimages in
-    [[cell element1Image] setImage:[UIImage imageNamed:@"url.png"]];
+    
+    int i = 0;
+    for (NSString *element in [dragon elements]) {
+        
+        [[[cell elementImages] objectAtIndex:i] setImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@ Element.png", element]]];
+
+        i++;        
+    }
+    
+    
  
      // Configure the cell...
  

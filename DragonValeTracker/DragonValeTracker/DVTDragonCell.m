@@ -9,6 +9,7 @@
 #import "DVTDragonCell.h"
 
 @implementation DVTDragonCell
+@synthesize elementImages;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
