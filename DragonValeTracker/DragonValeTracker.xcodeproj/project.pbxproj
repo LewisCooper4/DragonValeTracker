@@ -1121,9 +1121,9 @@
 		1E191A7718EF519700712AEF /* Seaweed adult.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Seaweed adult.jpg"; sourceTree = "<group>"; };
 		1E191A7818EF519700712AEF /* Seaweed baby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Seaweed baby.jpg"; sourceTree = "<group>"; };
 		1E191A7918EF519700712AEF /* Seaweed Egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Seaweed Egg.jpg"; sourceTree = "<group>"; };
-		1E191A7B18EF519700712AEF /* Water adult.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Water adult.jpeg"; sourceTree = "<group>"; };
-		1E191A7C18EF519700712AEF /* Water baby.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Water baby.jpeg"; sourceTree = "<group>"; };
-		1E191A7D18EF519700712AEF /* Water egg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Water egg.jpeg"; sourceTree = "<group>"; };
+		1E191A7B18EF519700712AEF /* Water adult.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Water adult.jpeg"; path = "../../../Project/Pictures/Regular/Water/Water/Water adult.jpeg"; sourceTree = "<group>"; };
+		1E191A7C18EF519700712AEF /* Water baby.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Water baby.jpeg"; path = "../../../Project/Pictures/Regular/Water/Water/Water baby.jpeg"; sourceTree = "<group>"; };
+		1E191A7D18EF519700712AEF /* Water egg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Water egg.jpeg"; path = "../../../Project/Pictures/Regular/Water/Water/Water egg.jpeg"; sourceTree = "<group>"; };
 		1E2C047718FB03F000C696A1 /* Habitat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Habitat.h; sourceTree = "<group>"; };
 		1E2C047818FB03F000C696A1 /* Habitat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Habitat.m; sourceTree = "<group>"; };
 		1E2C047F18FB053F00C696A1 /* HabitatDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HabitatDatabase.h; sourceTree = "<group>"; };
@@ -1211,6 +1211,9 @@
 			children = (
 				1E19179E18EF519500712AEF /* Pictures */,
 				1E19177C18EF34D000712AEF /* DVTAppDelegate.h */,
+				1E191A7B18EF519700712AEF /* Water adult.jpeg */,
+				1E191A7C18EF519700712AEF /* Water baby.jpeg */,
+				1E191A7D18EF519700712AEF /* Water egg.jpeg */,
 				1E19177D18EF34D000712AEF /* DVTAppDelegate.m */,
 				1E19177F18EF34D000712AEF /* DragonValeTracker.xcdatamodeld */,
 				1E19178D18EF37CE00712AEF /* DVTViewController.h */,
@@ -3430,9 +3433,6 @@
 		1E191A7A18EF519700712AEF /* Water */ = {
 			isa = PBXGroup;
 			children = (
-				1E191A7B18EF519700712AEF /* Water adult.jpeg */,
-				1E191A7C18EF519700712AEF /* Water baby.jpeg */,
-				1E191A7D18EF519700712AEF /* Water egg.jpeg */,
 			);
 			path = Water;
 			sourceTree = "<group>";
